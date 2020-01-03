@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.raspemania">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name=".view.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+        <!--<activity
+            android:name=".view.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".view.activity.LoginActivity"
+            android:label="@string/login"/>
+         </activity>-->
+
+        <activity android:name=".view.activity.CadastroUsuarioActivity"
+            android:label="@string/cadastrar"/>
+        <activity android:name=".view.activity.ProdutoActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/produto"/>
+        <activity android:name=".view.activity.ClienteActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/cliente"/>
+        <activity android:name=".view.activity.ColaboradorActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/colaborador"/>
+        <activity android:name=".view.activity.RotaActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/rota"/>
+        <activity android:name=".view.activity.LeituraActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/leitura"/>
+        <activity android:name=".view.activity.RelatorioActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/relatorios"/>
+
+    </application>
+
+</manifest>

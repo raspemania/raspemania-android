@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Raspe Mania</string>
+    <string name="nav_header_image">Raspe Mania</string>
+    <string name="nav_header_title">Maria José da Silva Sauro</string>
+    <string name="nav_header_subtitle">administrador</string>
+    <string name="nav_header_desc">Nome de usuário</string>
+    <string name="update_pass">Alterar senha</string>
+    <string name="logout">Sair</string>
+    <string name="login">Login</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="menu_home">Principal</string>
+    <string name="loading">Carregando...</string>
+    <string name="criar_conta">Criar uma conta</string>
+    <string name="esqueci_senha">Esqueceu a senha?</string>
+    <string name="tenho_conta">Já possuo uma conta</string>
+    <string name="campo_obrigatorio">Campo obrigatório!</string>
+
+    <string name="example">Example</string>
+    <string name="salvar">Salvar</string>
+    <string name="buscar">Buscar Leituras</string>
+    <string name="voltar">Voltar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="novo">Novo</string>
+
+    <string name="colaborador">Colaborador</string>
+    <string name="rota">Rota</string>
+    <string name="produto">Produto</string>
+    <string name="cliente">Cliente</string>
+    <string name="leitura">Leitura</string>
+    <string name="relatorios">Relatórios</string>
+
+    <!-- Produto -->
+    <string name="valor_produto">Valor produto</string>
+    <string name="nome_produto">Nome produto</string>
+    <string name="erro_nome_produto">Informe o nome do produto!</string>
+    <string name="erro_valor_produto">Informe o valor do produto!</string>
+    <string name="produto_inserido_sucesso">Produto inserido!</string>
+
+    <!-- CRUD messages -->
+    <string name="inserido_sucesso">Salvo com sucesso!</string>
+    <string name="inserido_error">Erro ao salvar!</string>
+    <string name="atializacao_error">Erro ao atualizar!</string>
+
+    <!-- Colaborador -->
+    <string name="apelido_colaborador">Apelido</string>
+    <string name="email_colaborador">E-Mail</string>
+    <string name="senha_colaborador">Senha</string>
+    <string name="perfil_colaborador">Perfil</string>
+    <string name="erro_nome_colaborador">Informe o nome do colaborador!</string>
+    <string name="erro_apelido_colaborador">Informe o apelido do colaborador!</string>
+    <string name="erro_email_colaborador">Informe o e-mail do colaborador!</string>
+    <string name="erro_senha_colaborador">Informe a senha do colaborador!</string>
+
+
+    <!-- Rota -->
+    <string name="rota_descricao">Nome</string>
+    <string name="rota_colaborador">Apelido</string>
+    <string name="erro_rota_descricao">Informe a rota!</string>
+    <string name="erro_rota_colaborador">Informe o colaborador!</string>
+
+
+    <!-- Cliente -->
+    <string name="cliente_estoque">Estoque</string>
+    <string name="cliente_endereco">Endereço</string>
+    <string name="cliente_codigo">Código</string>
+    <string name="cliente_nome">Nome</string>
+    <string name="cliente_porcentagem">Porcentagem (%)</string>
+    <string name="cliente_rota">Rota</string>
+    <string name="erro_cliente_estoque">Informe a quantidade em estoque!</string>
+    <string name="erro_cliente_nome">Informe o nome do cliente!</string>
+    <string name="erro_cliente_endereco">Informe o endereço!</string>
+    <string name="erro_cliente_codigo">Informe o código!</string>
+    <string name="erro_cliente_porcentagem">Informe a porcentagem!</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="prompt_apelido">Apelido</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- LOGIN -->
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <!-- Leitura -->
+    <string name="erro_leitura_qtd_vendide">Informe a quantidade vendida!</string>
+    <string name="erro_leitura_reposicao">Informe a quantidade de reposição!</string>
+    <string name="erro_leitura_valor">Informe o valor da premiação!</string>
+    <string name="erro_leitura_qtd">Informe a quantidade da premiação!</string>
+    <string name="data_inicio">Data Início</string>
+    <string name="data_fim">Data Fim</string>
+    <string name="leitura_spinner_produto">Selecione Produto</string>
+    <string name="leitura_spinner_cliente">Selecione Cliente</string>
+    <string name="leitura_spinner_erro_cliente">Selecione o Cliente </string>
+    <string name="leitura_spinner_erro_produto">Selecione o Produto </string>
+    <string name="leitura_vazia">Ops!! Nenhuma leitura registrada nas últimas 24 horas.</string>
+
+
+
+
+
+    <!-- Spinner -->
+    <string name="spinner_colaborador">Selecione Colaborador</string>
+    <string name="spinner_rota">Selecione Rota</string>
+    <string name="spinner_rota_erro">Selecione a rota</string>
+
+    <!-- Status erro -->
+    <string name="erro_spinner_status">Selecione o status</string>
+
+</resources>

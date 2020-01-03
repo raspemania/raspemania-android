@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />-->
+
+        <item
+            android:id="@+id/nav_leitura"
+            android:icon="@drawable/ic_leitura"
+            android:title="@string/leitura" />
+
+        <item
+            android:id="@+id/nav_relatorio"
+            android:icon="@drawable/ic_relatorio"
+            android:visible="false"
+            android:title="@string/relatorios" />
+    </group>
+
+    <item android:title="Cadastros">
+        <menu>
+            <item
+                android:id="@+id/nav_colaborador"
+                android:icon="@drawable/ic_colaborador"
+                android:visible="false"
+                android:title="@string/colaborador" />
+            <item
+                android:id="@+id/nav_produto"
+                android:icon="@drawable/ic_produto"
+                android:visible="false"
+                android:title="@string/produto" />
+            <item
+                android:id="@+id/nav_rota"
+                android:icon="@drawable/ic_rota"
+                android:visible="false"
+                android:title="@string/rota" />
+            <item
+                android:id="@+id/nav_cliente"
+                android:icon="@drawable/ic_cliente"
+                android:visible="false"
+                android:title="@string/cliente" />
+        </menu>
+    </item>
+</menu>

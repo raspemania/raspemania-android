@@ -1,0 +1,8 @@
+
+- verificar //TODO no codigo
+- colocar mascara nos campo sde porcentagem  e valor
+
+-ERROS
+
+- Quando o usuário tá inativo tem que verificar antes de fazer a leitura pq se ele nao deslogar, nunca vai derrubar ele
+
